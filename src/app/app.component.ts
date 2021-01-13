@@ -13,7 +13,7 @@ export class AppComponent {
   
   citys: city[] = citysData;
   stations: station[] = stationsData;
-  cityCode = "city code";
+  cityCode = 'city';
 
   choose() {
     this.cityCode = cityCode;

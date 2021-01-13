@@ -8,19 +8,18 @@ import { HttpClientModule } from '@angular/common/http'
 import { AgmCoreModule } from '@agm/core';
 import { FormsModule } from '@angular/forms';
 import { from } from 'rxjs';
+import { ListComponent } from './list/list.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ListComponent
   ],
   imports: [
     BrowserModule,
     HttpClientModule,
     AppRoutingModule,
-    FormsModule,
-    AgmCoreModule.forRoot({
-      apiKey: '272404a4548044aeb7086d7fda783147'
-    })
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
