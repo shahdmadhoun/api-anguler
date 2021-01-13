@@ -10,5 +10,5 @@ import citysData from './citys.json';
 export class AppComponent {
   
   citys: city[] = citysData;
-  cityCode = 'city';
+  cityCode = 'city code';
 }
