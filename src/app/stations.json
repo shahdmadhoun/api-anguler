@@ -1,8 +1,11 @@
 
 [  
-    {"name":"marah", "code":"HE"},  
-    {"name":"horyah", "code":"HE"},  
-    {"name":"radio jerusalem", "company":"JU"}, 
-    {"name":"radio Nables", "company":"NA"},  
-    {"name":"radio Ramallah", "company":"RA"}
+    {"name":"marah", "code":"HE", "link": "http://tunein.com/embed/player/s109975/"},  
+    {"name":"horyah", "code":"HE", "link": "http://tunein.com/embed/player/s183070/"},  
+    {"name":"radio jerusalem", "company":"JU", "link": "http://tunein.com/embed/player/s17630/"}, 
+    {"name":"radio Nables", "company":"NA", "link": "http://tunein.com/embed/player/s183070/"},  
+    {"name":"radio Ramallah", "company":"RA", "link": "http://tunein.com/embed/player/s150874/"},
+    {"name":"Radio Bethlehem", "company":"BL", "link": "http://tunein.com/embed/player/s138027/"}
+
 ] 
+

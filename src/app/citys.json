@@ -3,5 +3,6 @@
     {"name":"Hebron", "code":"HE"},  
     {"name":"jerusalem", "code":"JU"}, 
     {"name":"Nables", "code":"NA"},  
-    {"name":"Ramallah", "code":"RA"}
+    {"name":"Ramallah", "code":"RA"},
+    {"name":"Bethlehem", "code":"BL"}
 ] 
