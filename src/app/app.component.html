@@ -1,7 +1,20 @@
-<!-- this creates a google map on the page with the given lat/lng from -->
-<!-- the component as the initial center of the map: -->
-<agm-map [latitude]="lat" [longitude]="lng">
-  <agm-marker [latitude]="lat" [longitude]="lng"></agm-marker>
-</agm-map>
-<h1>your information</h1>
-<p>lat = {{ lat }} , lng = {{ lng }}</p>
+<table>
+    <thead>
+        <tr>
+          <th>Name</th>
+          <th>Code</th>
+        </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let city of citys">
+        <td>{{ city.name }}</td>
+        <td>{{ city.code }}</td>
+      </tr>
+    </tbody>
+  </table>
+<br>
+<label>choose city name: </label>
+<input  [(ngModel)]="cityCode" type="text">
+<button type="button" (click)="choose()">choose</button><br>
+<p>{{cityCode}}</p>
+

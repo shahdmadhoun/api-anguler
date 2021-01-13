@@ -1,6 +1,5 @@
 import { Component } from '@angular/core';
-import { MapsService } from './maps.service';
-import { google } from '@google/maps';
+import citysData from './citys.json'
 
 
 @Component({
@@ -9,26 +8,11 @@ import { google } from '@google/maps';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'Angular Google Maps Example';
+  
+  citys: city[] = citysData;
+  cityCode = "city name";
 
- 
-  lat: string = '';
-  lng: string = '';
-  location: object;
-
-  constructor(private map: MapsService) {
-
-    this.location = Object;
+  choose() {
+    this.cityCode = cityCode;
   }
-     ngOnInit() {
-       this.map.getLocation().subscribe( data => {
-         console.log(data);
-         this.lat = data.latitude;
-         this.lng = data.longitude;
-       });
-     }
-  
-  
-
-
 }
