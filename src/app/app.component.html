@@ -1,0 +1,23 @@
+<table>
+    <thead>
+        <tr>
+          <th>Name</th>
+          <th>Code</th>
+        </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let city of citys">
+        <td>{{ city.name }}</td>
+        <td>{{ city.code }}</td>
+      </tr>
+    </tbody>
+  </table>
+<br>
+
+<label>choose city code: </label>
+<input  [(ngModel)]="cityCode" type="text">
+
+<app-list [cityCode]="cityCode" ></app-list>
+
+
+
