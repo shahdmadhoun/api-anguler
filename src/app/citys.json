@@ -1,8 +1,7 @@
-[
-    [  
-        {"name":"Hebron", "code":"HE"},  
-        {"name":"jerusalem", "company":"JU"}, 
-        {"name":"Nables", "company":"NA"},  
-        {"name":"Ramallah", "company":"RA"}
-    ] 
-]
+
+[  
+    {"name":"Hebron", "code":"HE"},  
+    {"name":"jerusalem", "company":"JU"}, 
+    {"name":"Nables", "company":"NA"},  
+    {"name":"Ramallah", "company":"RA"}
+] 
