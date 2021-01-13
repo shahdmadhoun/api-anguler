@@ -13,8 +13,12 @@
     </tbody>
   </table>
 <br>
-<label>choose city name: </label>
+<label>choose city code: </label>
 <input  [(ngModel)]="cityCode" type="text">
 <button type="button" (click)="choose()">choose</button><br>
+<p *ngFor = "let city of citys"><span *ngIf="city.code == cityCode">
+{{city.name}}</span></p>
 <p>{{cityCode}}</p>
+
+
 

@@ -1,5 +1,7 @@
 import { Component } from '@angular/core';
-import citysData from './citys.json'
+import citysData from './citys.json';
+import stationsData from './stations.json'
+
 
 
 @Component({
@@ -10,7 +12,8 @@ import citysData from './citys.json'
 export class AppComponent {
   
   citys: city[] = citysData;
-  cityCode = "city name";
+  stations: station[] = stationsData;
+  cityCode = "city code";
 
   choose() {
     this.cityCode = cityCode;

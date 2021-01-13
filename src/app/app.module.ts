@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { HttpClientModule } from '@angular/common/http'
 
 import { AgmCoreModule } from '@agm/core';
+import { FormsModule } from '@angular/forms';
 import { from } from 'rxjs';
 
 @NgModule({
@@ -16,6 +17,7 @@ import { from } from 'rxjs';
     BrowserModule,
     HttpClientModule,
     AppRoutingModule,
+    FormsModule,
     AgmCoreModule.forRoot({
       apiKey: '272404a4548044aeb7086d7fda783147'
     })
